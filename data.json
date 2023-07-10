@@ -1,52 +1,128 @@
 {
-"product" : [
-    {
-        "id" : 1,
-        "image" : "https://i.postimg.cc/TY56YSjk/Screenshot-2023-07-03-094751.png",
-        "name" : "E-commerce Site",
-        "description" : "I created an e-commerce website as a way to grasp the functioning and proper usage of JavaScript functions. To build it, I made use of Bootstrap, HTML, CSS, and JavaScript.",
-        "github" : "https://github.com/EthanO2809/e_commerce.git",
-        "netlify" : "https://dainty-muffin-80994d.netlify.app"
-    },
-    {
-        "id" : 2,
-        "image" : "https://i.postimg.cc/yNcGMCHR/Screenshot-2023-07-03-095343.png",
-        "name" : "E-commerce with Javascript",
-        "description" : "As part of my JavaScript exercises, I developed an e-commerce website using CSS, HTML, Bootstrap, and JavaScript.",
-        "github" : "https://github.com/EthanO2809/e-comFINAL.git",
-        "netlify" : "https://illustrious-zabaione-81c6a6.netlify.app"
-    },
-    {
-        "id" : 3,
-        "image" : "https://i.postimg.cc/WpxSGfrq/Screenshot-2023-07-03-093600.png",
-        "name" : "BMI Calculator",
-        "description" : "As part of my JavaScript exercises, I developed a BMI (Body Mass Index) calculator using CSS, HTML, Bootstrap, and JavaScript. This calculator enables users to input their weight and height to calculate their BMI, providing valuable insights into their body composition.",
-        "github" : "https://github.com/EthanO2809/BMI_Calculator.git",
-        "netlify" : "https://fantastic-valkyrie-46f7f0.netlify.app/"
-    },
-    {
-        "id" : 4,
-        "image" : "https://i.postimg.cc/Y2Xk8nWt/Screenshot-2023-07-03-105431.png",
-        "name" : "Bootstrap Portfolio",
-        "description" : "As part of my Bootstrap EOMP, I created a Portfolio application using CSS, HTML and Bootstrap.",
-        "github" : "https://github.com/EthanO2809/Project-Week1.git",
-        "netlify" : "https://eloquent-gelato-5ca4e1.netlify.app"
-    },
-    {
-        "id" : 5,
-        "image" : "https://i.postimg.cc/YS4T2mBJ/Screenshot-2023-07-03-094404.png",
-        "name" : "Currency Converter",
-        "description" : "As part of my JavaScript exercises, I built a currency converter application using CSS, HTML, Bootstrap, and JavaScript.",
-        "github" : "https://github.com/EthanO2809/Currency_Exchange.git",
-        "netlify" : "https://super-toffee-995b22.netlify.app/"
-    },
-    {
-        "id" : 6,
-        "image" : "https://i.postimg.cc/wvXJD0dL/Screenshot-2023-07-03-094059.png",
-        "name" : "Temperature Converter",
-        "description" : "I created a temperature converter as a way to grasp the functioning and proper usage of JavaScript functions. The converter specifically converts temperatures from Fahrenheit to degrees Celsius. To build it, I employed Bootstrap, HTML, CSS, and JavaScript.",
-        "github" : "https://github.com/EthanO2809/Temp_Converter.git",
-        "netlify" : "https://frolicking-mooncake-85df14.netlify.app/"
-    }
-  ]
+    "products" : [
+        {
+          "id": 1,
+          "image": "https://i.postimg.cc/SKPR9Jz8/bayern-tab-min.jpg",
+          "title": "ADIDAS FC Bayern 22/23 Jersey",
+          "desc": "",
+          "price": 1899,
+          "instock": 1
+        },
+        {
+          "id": 2,
+          "image": "https://i.postimg.cc/br9nckmb/9093476a9f0577bf3a6b46ea76e92709.jpg",
+          "title": "Nike PSG Alternate 23/24 Jersey",
+          "desc": "",
+          "price": 1949,
+          "instock": 1
+        },
+        {
+          "id": 3,
+          "image":"https://i.postimg.cc/1zDDQGLz/2223-brazil-limited-edition-bl-1662480461-58973f58-progressive.jpg",
+          "title": "NIKE Brazil Away International Kit 22'",
+          "desc": "",
+          "price": 1899,
+          "instock": 1
+        },
+        {
+          "id": 4,
+          "image":"https://i.postimg.cc/7Ps7VZ8B/c6578b310aad413fb21a26362cb3f2bd.webp",
+          "title": "ADIDAS Black Unisex Fitness Tights",
+          "desc": "",
+          "price": 694,
+          "instock": 1
+        },
+        {
+          "id": 5,
+          "image":"https://i.postimg.cc/hGLZz7YZ/HO22-NBACity-Edition-NA-Off-Body-Golden-State-Hero-0036-05-scaled.webp",
+          "title": "NIKE Golden State Warriors 22/23",
+          "desc": "",
+          "price": 2198,
+          "instock": 1
+        },
+        {
+          "id": 6,
+          "image": "https://i.postimg.cc/d0j46ZY7/193089.webp",
+          "title": "NIKE Unisex Black/Red AirMax 98'",
+          "desc": "",
+          "price": 3599,
+          "instock": 1
+        },
+        {
+          "id": 7,
+          "image": "https://i.postimg.cc/9XZBfDxw/photo-1617659512089-6fdec6c54406.jpg",
+          "title": "NIKE Mens White Air Force 1 98'",
+          "desc": "",
+          "price": 1800,
+          "instock": 1
+        },
+        {
+          "id": 8,
+          "image":
+            "https://i.postimg.cc/wMkFXHfd/desktop-wallpaper-nike-dunk-low-retro-black-white-the-darkside-initiative.jpg",
+          "title": "NIKE DUNK Unisex Low 'Pandas'",
+          "desc": "",
+          "price": 3400,
+          "instock": 1
+        },
+        {
+          "id": 9,
+          "image":
+            "https://i.postimg.cc/fWfBK3xn/nike-air-jordan-11-retro-low-b-1650205434-d7348d8a-progressive.jpg",
+          "title": "NIKE AIR JORDAN 11 Retro Low 'Bred'",
+          "desc": "",
+          "price": 4600,
+          "instock": 1
+        },
+        {
+          "id": 10,
+          "image": "https://i.postimg.cc/nrWkDmQ6/download-2.jpg",
+          "title": "JORDAN 13's 'Chris' Wallace'",
+          "desc": "",
+          "price": 4599,
+          "instock": 1
+        },
+        {
+          "id": 11,
+          "image": "https://i.postimg.cc/28X19MBd/bfbfb561529c81af67abe115b1b65e98.png",
+          "title": "NIKE Black Fits for All Dri-Fit Cap",
+          "desc": "",
+          "price": 449,
+          "instock": 1
+        },
+        {
+          "id": 12,
+          "image":
+            "https://i.postimg.cc/L6TyDqFg/Apple-delivers-apple-watch-series-6-09152020-big-jpg-large.jpg",
+          "title": "APPLE Watch Series 6 2020 V",
+          "desc": "",
+          "price": 8999,
+          "instock": 1
+        },
+        {
+          "id": 13,
+          "image": "https://i.postimg.cc/2yJ5NkPQ/17234517.jpg",
+          "title": "NIKE Soccer Ball",
+          "desc": "",
+          "price": 499,
+          "instock": 1
+        },
+        {
+          "id": 14,
+          "image":
+            "https://i.postimg.cc/zXzmqYJW/desktop-wallpaper-nike-for-apple-watch-iwatch.jpg",
+          "title": "NIKE FIT Watch 23'",
+          "desc": "",
+          "price": 6800,
+          "instock": 1
+        },
+        {
+          "id": 15,
+          "image": "https://i.postimg.cc/DyXCVCGs/photo-1612387604874-e75a5820637a.jpg",
+          "title": "NIKE Phantom 22'",
+          "desc": "",
+          "price": 3600,
+          "instock": 1
+        }
+    ]
 }
